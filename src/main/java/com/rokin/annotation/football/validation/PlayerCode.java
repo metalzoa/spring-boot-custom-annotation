@@ -16,6 +16,8 @@ public @interface PlayerCode {
 	public String value() default "FP-";
 
 	public String message() default "Player code must start with FP-";
+	
+	public String messageEmpty() default "Player code must not be null";
 
 	Class<?>[] groups() default {};
 
